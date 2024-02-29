@@ -3,10 +3,32 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Felipe Cardenas Personal Website</title>
+	<title>Simply Felipe</title>
+	<link rel="stylesheet" href="styles.css"/>
+	<script language="javascript">
+		function comingSoon() {
+			console.log('This content will be available soon');
+			alert('Coming soon');
+		}
+
+	</script>
 </head>
 <body>
-	<h1>This is me!</h1>
-	<p><em>You can find some information about my professional background & experience.</em></p>
+	<div class="module header">
+		<div class="logo">&lt;sf/&gt; Simply Felipe</div>
+		<ul class="links">
+			<li><a href="#" onclick="comingSoon();">Background</a></li>
+			<li><a href="#" onclick="comingSoon();">About Me</a></li>
+			<li><a href="#" onclick="comingSoon();">Contact</a></li>
+		</ul>
+	</div>
+	<hr>
+	<div class="module myself">
+		<img class="this-is-me" src="pichilemu.jpg" />
+		<div class="self-description">
+			<h1>This is me!</h1>
+			<p>I am Felipe, an experienced backend developer from Chile 🇨🇱 </p>
+		</div>
+	</div>
 </body>
 </html>
